@@ -54,5 +54,4 @@ final class RMCharacterCollectionViewCellViewModel: Hashable, Equatable {
     static func == (lhs: RMCharacterCollectionViewCellViewModel, rhs: RMCharacterCollectionViewCellViewModel) -> Bool {
         return lhs.hashValue == rhs.hashValue
     }
-
 }
